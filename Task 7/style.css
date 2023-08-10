@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke;
+}
+.reg {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  border: solid crimson;
+  border-radius: 7px;
+}
+
+.cont form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+.btn{
+    background-color: crimson;
+    color: wheat;
+}
+.btn:hover{
+    background-color: gray;
+    transition: .3s ease-out;
+    color: black;
+    cursor: pointer;
+}
+.inp{
+    background-color: transparent;
+    
+}
